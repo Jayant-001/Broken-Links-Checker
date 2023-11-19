@@ -2,7 +2,7 @@
 
 A learning platform that makes learning easy and more competitive. It provides learning and practice exercises to learn different languages. 
 
-[Live app](https://broken-links-checker.vercel.app/) | [Demo video](https://www.youtube.com/watch?v=9FJCu1IRmlU)
+[Live app](https://broken-links-checker.vercel.app/) || [Demo video](https://www.youtube.com/watch?v=9FJCu1IRmlU)
 
 ![Mera Box Banner](https://raw.githubusercontent.com/Jayant-001/Portfolio/main/src/assets/images/projects/pocket_library_project.png)
 
