@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Broken Links Checker - A small tool to check dead links on a web-page](https://broken-links-checker.vercel.app/)
+
+A learning platform that makes learning easy and more competitive. It provides learning and practice exercises to learn different languages. [Live](https://broken-links-checker.vercel.app/)
+
+![Mera Box Banner](https://raw.githubusercontent.com/Jayant-001/Portfolio/main/src/assets/images/projects/pocket_library_project.png)
+
+## Features
+
+- Checks all links present on a webpage
+- Provide links status
+- Report broken/dead links
+
+## Technologies used
+
+- Next.js
+- React.js
+- Linkinator
+- TanStack Query
+- Tailwind CSS
+- Built with TypeScript
+- Icons by `react-loading-icons`
+
 
 ## Getting Started
 
-First, run the development server:
+To get started with Broken Links Checker, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository: `git clone https://github.com/Jayant-001/Broken-Links-Checker.git`
+2. Navigate to the project directory: `cd Broken-Links-Checker`
+3. Install the dependencies: `yarn install`
+4. Start the server: `yarn run dev`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Feedback
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you have any feedback, please reach out to me at jayant.gupta.dln@gmail.com
 
-## Learn More
+##
 
-To learn more about Next.js, take a look at the following resources:
+Connect with us:
+- Email: [jayant.gupta.dln@gmail.com](jayant.gupta.dln@gmail.com)
+- LinkedIn: [@jayant-cse](https://www.linkedin.com/in/jayant-cse/)
+- Website: [https://jayant-gupta.vercel.app](https://jayant-gupta.vercel.app)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
