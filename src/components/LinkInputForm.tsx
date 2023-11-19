@@ -56,7 +56,7 @@ const LinkInputForm: React.FC<PropType> = ({ setLinks, setSearched }) => {
                 placeholder="Enter URL"
             />
             <button
-                className="cursor-pointer border-0 outline-0 px-5 py-1 flex justify-center items-center w-28 bg-[#FF8F94]  active:opacity-50 text-white rounded-r-xl"
+                className="cursor-pointer px-5 py-1 flex justify-center items-center w-28 bg-[#FF8F94]  active:opacity-50 text-white rounded-r-xl"
                 type="button"
                 onClick={handleSubmit}
             >

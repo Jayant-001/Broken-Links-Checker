@@ -13,7 +13,7 @@ interface PropType {
 const BrokenLinks: React.FC<PropType> = ({ links }) => {
     return (
         <div className="w-full">
-            <h1 className="text-center text-2xl">Broken Links</h1>
+            <h1 className="text-center text-2xl">Dead Links</h1>
             <table cellPadding={3} className="w-full">
                 <tr>
                     <th>Status</th>
