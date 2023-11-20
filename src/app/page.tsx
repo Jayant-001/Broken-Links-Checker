@@ -10,8 +10,9 @@ interface LinkType {
 }
 
 export default function Home() {
-    const [brokenLinks, setBrokenLinks] = useState<LinkType[]>([]);
-    const [searched, setSearched] = useState<boolean>(false);
+    
+    const [brokenLinks, setBrokenLinks] = useState<LinkType[]>([]); // array to store dead links
+    const [searched, setSearched] = useState<boolean>(false); // is user searched any url or not || used to show BrokenLinks component
 
     return (
         <div className="py-24 border px-10 sm:px-14 md:px-28 gap-10 min-h-screen flex flex-col items-center justify-center">
@@ -28,6 +29,7 @@ export default function Home() {
                 setLinks={setBrokenLinks}
                 setSearched={setSearched}
             />
+            {/* If user searched any URL show BrokenLinks component */}
             {searched && <BrokenLinks links={brokenLinks} />}
         </div>
     );

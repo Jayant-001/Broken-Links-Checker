@@ -11,6 +11,7 @@ interface PropType {
 }
 
 const BrokenLinks: React.FC<PropType> = ({ links }) => {
+    // show links array in tabular format
     return (
         <div className="w-full">
             <h1 className="text-center text-2xl">Dead Links</h1>

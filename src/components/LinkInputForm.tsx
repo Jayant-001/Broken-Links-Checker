@@ -22,13 +22,14 @@ function validateUrl(value: string) {
 }
 
 const LinkInputForm: React.FC<PropType> = ({ setLinks, setSearched }) => {
-    const [url, setUrl] = useState<string>("");
+    const [url, setUrl] = useState<string>(""); // store user input
 
+    // send post request to http://localhost:3000/api/broken-links with body = { url = <user_input_url> }
     const mutation = useMutation({
         mutationFn: async () => await axios.post("/api/broken-links", { url }),
         onSuccess: (data) => {
-            setSearched(true);
-            setLinks(data.data?.notFoundLinks);
+            setSearched(true); // set user searched for a URL
+            setLinks(data.data?.notFoundLinks);  // set dead links to dead links array
         },
         onError: (error: any) => {
             alert(error.message);
@@ -38,12 +39,13 @@ const LinkInputForm: React.FC<PropType> = ({ setLinks, setSearched }) => {
     const handleSubmit = (e: any) => {
         e.preventDefault();
 
+        // validate input URL 
         if (!validateUrl(url)) {
             alert("URL is not valid");
             return;
         }
 
-        mutation.mutate();
+        mutation.mutate(); // send post request using mutation function
     };
 
     return (
@@ -60,6 +62,7 @@ const LinkInputForm: React.FC<PropType> = ({ setLinks, setSearched }) => {
                 type="button"
                 onClick={handleSubmit}
             >
+                {/* if fetching ? Show loading icon : show check text */}
                 {mutation.isLoading ? (
                     <TailSpin className="text-sm w-7 h-fit " />
                 ) : (
