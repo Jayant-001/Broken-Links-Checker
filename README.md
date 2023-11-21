@@ -4,7 +4,7 @@ A learning platform that makes learning easy and more competitive. It provides l
 
 [Live app](https://broken-links-checker.vercel.app/) || [Demo video](https://www.youtube.com/watch?v=9FJCu1IRmlU)
 
-![Mera Box Banner](https://raw.githubusercontent.com/Jayant-001/Portfolio/main/src/assets/images/projects/pocket_library_project.png)
+![Mera Box Banner](https://raw.githubusercontent.com/Jayant-001/Broken-Links-Checker/main/public/Screenshot%20(91).png)
 
 ## Features
 
