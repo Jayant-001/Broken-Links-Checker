@@ -1,6 +1,6 @@
 # [Broken Links Checker - A small tool to check dead links on a web-page](https://broken-links-checker.vercel.app/)
 
-A learning platform that makes learning easy and more competitive. It provides learning and practice exercises to learn different languages. 
+Introducing Broken Links Checker, your go-to app for seamless URL validation. Simply input a URL, and let Broken Links Checker meticulously scan and report all links on the page, identifying and highlighting any dead or broken links. Empowering users with a quick and efficient tool to ensure website integrity and user experience. Broken Links Checker, where link validation meets simplicity.
 
 [Live app](https://broken-links-checker.vercel.app/) || [Demo video](https://www.youtube.com/watch?v=9FJCu1IRmlU)
 
